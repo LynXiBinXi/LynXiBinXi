@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="90" viewBox="0 0 800 90">
+  <defs>
+    <filter id="bloomWide" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="bloomMid" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+  </defs>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="16" text-anchor="middle">
+    <text x="408" y="59" fill="#8b5cf6" filter="url(#bloomWide)" opacity="0.8">
+      <animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="linear"
+        keyTimes="0;0.30;0.315;0.34;0.37;0.395;0.70;0.708;0.73;0.742;0.77;1"
+        values="0.8;0.8;0.2;0.8;0.3;0.8;0.8;0.08;0.6;0.12;0.8;0.8"/>PROJECTS</text>
+    <text x="408" y="59" fill="#a855f7" filter="url(#bloomMid)">
+      <animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="linear"
+        keyTimes="0;0.30;0.31;0.33;0.355;0.375;0.70;0.705;0.72;0.73;0.75;1"
+        values="1;1;0.25;1;0.35;1;1;0.1;0.85;0.15;1;1"/>PROJECTS</text>
+    <text x="408" y="59" fill="#f3e8ff">
+      <animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="linear"
+        keyTimes="0;0.30;0.308;0.325;0.35;0.37;0.70;0.703;0.715;0.725;0.745;1"
+        values="0.95;0.95;0.2;0.95;0.3;0.95;0.95;0.08;0.9;0.12;0.95;0.95"/>PROJECTS</text>
+  </g>
+</svg>
