@@ -1,4 +1,6 @@
-## Projects
+<div align="center">
+
+<img src="assets/header.svg" width="100%" alt="Projects"/>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -12,10 +14,8 @@ Full port to 3DS hardware, including the original Old 3DS model and its tighter 
 
 ![40%](https://progress-bar.xyz/40/?title=Progress&width=400&color=8b5cf6&suffix=%25)
 
-- ✅ Engine
-- ✅ First cutscenes
-- 🔧 Remaining levels
-- 🔧 Story progression
+✅ Engine &nbsp;·&nbsp; ✅ First cutscenes<br>
+🔧 Remaining levels &nbsp;·&nbsp; 🔧 Story progression
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -28,8 +28,8 @@ Native PC port with custom fixes and improvements over the original release.
 
 ![80%](https://progress-bar.xyz/80/?title=Progress&width=400&color=8b5cf6&suffix=%25)
 
-- ✅ Core port and custom fixes
-- 🔧 Minor graphical issues on fast camera movement
+✅ Core port and custom fixes<br>
+🔧 Minor graphical issues on fast camera movement
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -55,3 +55,5 @@ Faithful 1:1 port of the game that runs directly in the browser.
 ![100%](https://progress-bar.xyz/100/?title=Progress&width=400&color=22c55e&suffix=%25)
 
 <img src="assets/divider.svg" width="100%" alt=""/>
+
+</div>
