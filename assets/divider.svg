@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="48" viewBox="0 0 800 48">
+  <defs>
+    <filter id="bloomWide" x="-10%" y="-400%" width="120%" height="900%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="bloomMid" x="-10%" y="-400%" width="120%" height="900%"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="0" x2="800" y1="0" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0.1" stop-color="#8b5cf6"/>
+      <stop offset="0.9" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="0.18" stop-color="#e9d5ff" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#a855f7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- neon tube: halo -->
+  <rect x="0" y="19" width="800" height="10" rx="5" fill="url(#edge)" filter="url(#bloomWide)" opacity="0.7">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.30;0.315;0.34;0.37;0.395;0.70;0.708;0.73;0.742;0.77;1"
+      values="0.75;0.75;0.2;0.75;0.3;0.75;0.75;0.08;0.6;0.12;0.75;0.75"/>
+  </rect>
+  <!-- neon tube: mid glow -->
+  <rect x="0" y="21.5" width="800" height="5" rx="2.5" fill="url(#edge)" filter="url(#bloomMid)">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.30;0.31;0.33;0.355;0.375;0.70;0.705;0.72;0.73;0.75;1"
+      values="1;1;0.25;1;0.35;1;1;0.1;0.85;0.15;1;1"/>
+  </rect>
+  <!-- neon tube: hot core -->
+  <rect x="0" y="23" width="800" height="2" rx="1" fill="#f3e8ff">
+    <animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="linear"
+      keyTimes="0;0.30;0.308;0.325;0.35;0.37;0.70;0.703;0.715;0.725;0.745;1"
+      values="0.95;0.95;0.15;0.95;0.25;0.95;0.95;0.05;0.9;0.1;0.95;0.95"/>
+  </rect>
+
+</svg>
