@@ -7,7 +7,7 @@
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-### Bomb Rush Cyberfunk
+### Bomb Rush Cyberfunk - 3DS
 
 ![Nintendo 3DS](https://img.shields.io/badge/Nintendo_3DS-D12228?style=for-the-badge&logo=nintendo3ds&logoColor=white)
 ![Old 3DS](https://img.shields.io/badge/Old_3DS-supported-22c55e?style=for-the-badge)
@@ -22,7 +22,7 @@ Full port to 3DS hardware, including the original Old 3DS model and its tighter 
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-### TimeSplitters 2
+### TimeSplitters 2 - PC
 
 ![Native PC](https://img.shields.io/badge/Native_PC-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Status](https://img.shields.io/badge/In_Progress-f59e0b?style=for-the-badge)
@@ -48,7 +48,7 @@ Tool for browsing and inspecting Counter-Strike 2 game assets.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-### Wii Play: Tanks
+### Wii Play: Tanks - Web
 
 ![Web Browser](https://img.shields.io/badge/Web_Browser-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Decompilation](https://img.shields.io/badge/Decompilation-8b5cf6?style=for-the-badge)
@@ -60,7 +60,7 @@ Decompilation of the Wii Play Tanks minigame, built to run in the web browser.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-### Waldmeister Sause XXL Winteredition
+### Waldmeister Sause XXL Winteredition - Web
 
 ![Web Browser](https://img.shields.io/badge/Web_Browser-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Decompilation](https://img.shields.io/badge/Decompilation-8b5cf6?style=for-the-badge)
@@ -72,7 +72,7 @@ Decompilation of Waldmeister Sause XXL Winteredition, built to run in the web br
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-### Air Strike 3D
+### Air Strike 3D - Web
 
 ![Web Browser](https://img.shields.io/badge/Web_Browser-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Complete](https://img.shields.io/badge/Complete-22c55e?style=for-the-badge)
